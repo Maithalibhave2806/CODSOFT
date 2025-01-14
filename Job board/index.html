@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Job Board</h1>
+    </header>
+    <main>
+        <section id="job-listings">
+            <h2>Available Jobs</h2>
+            <ul>
+                <li>
+                    <h3>Front-End Developer</h3>
+                    <p>Company: Tech Solutions</p>
+                    <p>Location: New York, NY</p>
+                    <button>Apply Now</button>
+                </li>
+                <li>
+                    <h3>Back-End Developer</h3>
+                    <p>Company: Web Services</p>
+                    <p>Location: San Francisco, CA</p>
+                    <button>Apply Now</button>
+                </li>
+                <!-- More job listings can be added here -->
+            </ul>
+        </section>
+        <section id="post-job">
+            <h2>Post a Job</h2>
+            <form>
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" name="job-title" required>
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="submit">Post Job</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Job Board</p>
+    </footer>
+</body>
+</html>

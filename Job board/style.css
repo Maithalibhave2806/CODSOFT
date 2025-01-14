@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: yellow;
+    /* background: url('image.png') no-repeat center center fixed; 
+    background-size: cover; */
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+h2 {
+    background-color: pink;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background:palevioletred;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: violet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #555;
+}
+
+form {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form button {
+    background-color: lightpink;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: lightsalmon;
+    background:violet;
+    color: white;
+}
+
+form button:hover {
+    background:#555;
+}
