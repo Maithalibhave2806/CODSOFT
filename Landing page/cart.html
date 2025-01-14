@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Govee Lights</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+  </header>
+  <main>
+    <section class="cart-items">
+      <h2>Items in Your Cart</h2>
+      <div class="cart-item">
+        <img src="strip.png" alt="Govee Light 1">
+        <div class="item-details">
+          <h3>Govee Light 1</h3>
+          <p>Quantity: 1</p>
+          <p>Price: ₹2,999</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+      <div class="cart-item">
+        <img src="img1.png" alt="Govee Light 2">
+        <div class="item-details">
+          <h3>Govee Light 2</h3>
+          <p>Quantity: 1</p>
+          <p>Price: ₹3,499</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+      <!-- Add more cart items as needed -->
+    </section>
+    <section class="checkout">
+      <h2>Order Summary</h2>
+      <p>Total: ₹6,498</p>
+      <button onclick="alert('Proceeding to checkout...');">Checkout</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Govee Lights</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkblue;
+  }
+  
+  header, footer {
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .product-gallery {
+    margin-bottom: 2rem;
+  }
+  
+  .product-gallery h2, .description h2, .buy-now h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .product-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  .product-gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .description {
+    background-color: palevioletred;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .buy-now {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  button {
+    background-color: palevioletred;
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  .product-gallery .product{
+    display: inline-block;
+    margin: 20px;
+    background-color: cornsilk;
+    padding: 10px;
+    border: 1px solid black;
+
+  }
+  .product-gallery .product img {
+    width: 200px;
+    height: 200px;
+}
+h2{
+    background-color: pink;
+}
+/* cart */
+/* Add this to your existing CSS file */
+.cart-items {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    margin-right: 1rem;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .remove-item {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-item:hover {
+    background-color: #cc0000;
+  }
+  
+  .checkout {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .checkout button {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout button:hover {
+    background-color: #555;
+  }
+  
+  
